@@ -1,3 +1,14 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body{
+  font-family: "Roboto condesed" sans-serif;
+}
+/* color variable css */
+:root {
+  --primary-dark:rgba(255,255,255,0);
+}
+/* page css */
 .App {
   text-align: center;
 }
@@ -35,4 +46,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+.logo{
+  width: 16.25rem;
+  color: azure;
+}
+/* Menu Links*/
+nav a.nav-link{
+  font-weight: 300;
+  letter-spacing: 0.0375rem;
+  cursor:pointer;
+  color:white;
+}
+nav ul li{
+  text-transform:uppercase ;
+}
+.navleft{
+  margin-left: auto;
+}
+.navbar-nav >li >a {
+  margin-right: .75rem;
+  margin: left 0.75rem;
+  color:white !important;
+  border-bottom: .1875rem solid var(--primary-dark);
+}
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 80 !important;
+  height: 3rem !important;
+  color:white !important;
+}
+ .navbar-nav >li>a.active, .navbar-nav >li> a.active:focus{
+   border-bottom: .1875rem solid #DD9933;
+ }
+.navbar-nav > li > a:hover {
+  border-bottom: .1875rem solid #DD9933 !important;
+
 }
