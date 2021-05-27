@@ -4,6 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Aboutme from "./components/Aboutme";
+import Experience from "./components/experience";
+import Certification from "./components/certification";
+import Contactus from "./components/contactus";
+ 
 function App() {
   return (
     <div>
@@ -34,6 +39,11 @@ function App() {
       />
      <Navbar />
      <Header />
+     <Aboutme />
+     <Experience />
+     <Certification />
+     <Contactus />
+
     </div>
      
   );
