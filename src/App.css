@@ -231,13 +231,4 @@ nav ul li{
    
   
 }
-@media(max-width:768px){
- .box1,.box2{
-   display: none;
-   visibility: hidden;
- }
-.boxRight{
-  margin: 0;
-}
-
-}
+ 
