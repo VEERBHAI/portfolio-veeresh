@@ -8,6 +8,7 @@ import Aboutme from "./components/Aboutme";
 import Experience from "./components/experience";
 import Certification from "./components/certification";
 import Contactus from "./components/contactus";
+import Footer from "./components/footer";
  
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
      <Experience />
      <Certification />
      <Contactus />
-
+      <Footer />  
     </div>
      
   );
